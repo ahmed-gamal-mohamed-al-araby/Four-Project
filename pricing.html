@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" >
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>my project</title>
+         
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/domain.css">
+        <link rel="stylesheet" href="css/pricing.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/default.css">
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    </head>
+    
+    <body>
+        
+        <section class="option-box">
+            <div class="color-option">
+                 <h4>Color option</h4>
+                <ul class="list-unstyled">
+                    <li data-value="css/default.css"></li>
+                    <li data-value="css/default-colorred.css"></li>
+                    <li data-value="css/default-pink.css"></li>
+                    <li data-value="css/default-blue.css"></li>
+                    <li data-value="css/default-green.css"></li>
+                </ul>
+            </div>
+            <i class=" gear-check fa fa-gear fa-3x "></i>
+        </section>
+        
+        
+         <div class="loading-overlay">
+            <div class="spinner">
+              <div class="double-bounce1"></div>
+              <div class="double-bounce2"></div>
+            </div>
+        </div>
+    
+        <div id="scrolltop">
+            <i class="fa fa-chevron-up fa-2x"></i>
+        </div>
+        
+         <div class="modal fade" role="dialog" id="login">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" >
+                         <h5 class="modal-title " id="login">Customer Login</h5>
+                        <button class="close" type="button" data-dismiss="modal">
+                            &times;
+                        </button> 
+                    </div>
+                    
+                    <div class="modal-body row">
+                        <div class="col-md-12">
+                            <ul class="nav nav-tabs ">
+                               <li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+                               <li><a href="#Registration" data-toggle="tab" >Registration</a></li>
+                            </ul>
+                            
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="Login" role="tabpanel">
+                                    <form role="form" class="form-horizontal">
+                                      <div class="form-group">
+                                        <div class="col-sm-12">
+                                            <input class="form-control" id="name" type="text" placeholder="Name">
+                                        </div>
+                                       </div> 
+                                        
+                                         <div class="form-group">
+                                        <div class="col-sm-12">
+                                            <input class="form-control" id="email" type="text" placeholder="Email">
+                                        </div>
+                                       </div> 
+                                        
+                                        
+                                         <div class="form-group">
+                                        <div class="col-sm-10">
+                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Submit</button>
+                                                <a href="#" >Forgot your password?</a>
+                                        </div>
+                                       </div> 
+                                    </form>    
+                                </div>
+                                
+                        <div class="tab-pane fade" id="Registration" role="tabpanel">
+							<form role="form" class="form-horizontal" >
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" placeholder="Name" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" id="email" placeholder="Email" type="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" id="mobile" placeholder="Mobile" type="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" id="password" placeholder="Password" type="password">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                      <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
+                                </div>
+							</form>
+                        </div>            
+                     </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand">
+                    <img src="image/logo-hosting.png" alt="image">
+                </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav">
+                <span class="navbar-toggler-icon"></span>   
+            </button>
+                
+            <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="project.html">Home</a>
+                    </li>
+                    
+                     <li class="nav-item ">
+                        <a class="nav-link" href="features.html">Features</a>
+                    </li>
+                    
+                     <li class="nav-item ">
+                        <a class="nav-link" href="domain.html"  >Domain</a>
+                    </li>
+                    
+                     <li class="nav-item ">
+                        <a class="nav-link" href="hosting.html">Hosting</a>
+                    </li>
+                    
+                     <li class="nav-item active ">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    
+                     <li class="nav-item ">
+                        <a class="nav-link" href="testmonails.html">Testmonails</a>
+                    </li>
+                    
+                    
+                     <li class="nav-item ">
+                        <a class="nav-link" href="concat.html">Concat</a>
+                    </li>
+                </ul>  
+                
+                <ul class="nav navbar-nav ml-auto">
+                        <li><a class="btn btn-primary" href="#" data-toggle="modal" data-target="#login"><i class="fa fa-home"></i> Customer Login</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+        <div class="pricing-page">
+         <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 wow bounceInLeft"  data-wow-duration="2s" data-wow-offset="300">
+                        <h1>Pricing</h1>
+                        <p>Lorem Ipsum Dolroin Gravida Nibh Vel Velit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="pricing-table">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 wow bounceInLeft"  data-wow-duration="2s" data-wow-offset="300">
+                        <div class="card">
+                             <span>$15/month</span>
+                            <div class="card-header text-center">
+                                <h2>BASIC PLAN</h2>
+                                <p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
+                            </div>
+                            
+                            <div class="card-body text-center">
+                                <ul class="list-unstyled text-left">
+                                    <li>1 Domain</li>
+                                    <li>10 GB Disk Space</li>
+                                    <li>50 GB Bandwidth</li>
+                                    <li>Free Domain</li>
+                                </ul>
+                                <button class="btn btn-secondary text-center">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   <div class="col-lg-4 wow bounceInDown"  data-wow-duration="2s" data-wow-offset="300">
+                        <div class="card">
+                             <span>$25/month</span>
+                            <div class="card-header text-center">
+                                <h2>PREMIUM PLAN</h2>
+                                <p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
+                            </div>
+                            
+                            <div class="card-body text-center">
+                                <ul class="list-unstyled text-left">
+                                    <li>5 Domain</li>
+                                    <li>200 GB Disk Space</li>
+                                    <li>250 GB Bandwidth</li>
+                                    <li>Free Domain</li>
+                                </ul>
+                                <button class="btn btn-secondary text-center">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                 <div class="col-lg-4 wow bounceInRight"  data-wow-duration="2s" data-wow-offset="300">
+                        <div class="card">
+                             <span>$35/month</span>
+                            <div class="card-header text-center">
+                                <h2>ULTIMATE PLAN</h2>
+                                <p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
+                            </div>
+                            
+                            <div class="card-body text-center">
+                                <ul class="list-unstyled text-left">
+                                    <li>10 Domain</li>
+                                    <li>300 GB Disk Space</li>
+                                    <li>350 GB Bandwidth</li>
+                                    <li>Free Domain</li>
+                                </ul>
+                                <button class="btn btn-secondary text-center">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+         <div class="ready-pricing">
+            <div class="container">
+                <h1 class="text-center wow bounceInDown " data-wow-duration="2s" data-wow-offset="300">Ready to get started?</h1>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card wow bounceInLeft" data-wow-duration="2s" data-wow-offset="300">
+                            <div class="card-header">
+                                <h5 class="text-center">Domain Name</h5>
+                            </div>
+                                <div class="card-body text-center">
+                                    <ul class="list-unstyled bold">
+                                        <li>.net</li>
+                                        <li>.org</li>
+                                        <li>.in</li>
+                                        <li>.biz</li>
+                                        <li>.info</li>
+                                        <li>.Co.Uk</li>
+                                        <li>.آName</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    <div class="col-lg-3">
+                        <div class="card wow bounceInDown" data-wow-duration="2s" data-wow-offset="300">
+                            <div class="card-header">
+                                 <h5 class="text-center">Registration Pricing</h5>
+                            </div>
+                                <div class="card-body text-center">
+                                    <ul class="list-unstyled">
+                                       <li>$30.00 / yr</li>
+                                        <li>$60.00 / yr</li>
+                                        <li>$40.00 / yr</li>
+                                        <li>$80.00 / yr</li>
+                                        <li>$20.00 / yr</li>
+                                        <li>$75.00 / yr</li>
+                                        <li>$45.00 / yr</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                    <div class="col-lg-3">
+                       <div class="card wow bounceInUp" data-wow-duration="2s" data-wow-offset="300">
+                            <div class="card-header">
+                                 <h5 class="text-center">Renewal Pricing</h5>
+                            </div>
+                                <div class="card-body text-center">
+                                    <ul class="list-unstyled">
+                                        <li>$30 / yr</li>
+                                        <li>$60 / yr</li>
+                                        <li>$40 / yr</li>
+                                        <li>$80 / yr</li>
+                                        <li>$20 / yr</li>
+                                        <li>$75 / yr</li>
+                                        <li>$45 / yr</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                    <div class="col-lg-3">
+                        <div class="card wow bounceInRight" data-wow-duration="2s" data-wow-offset="300">
+                            <div class="card-header">
+                                 <h5 class="text-center">Transfer Pricing</h5>
+                            </div>
+                                <div class="card-body text-center">
+                                    <ul class="list-unstyled">
+                                        <li>$45</li>
+                                        <li>$58</li>
+                                        <li>$20</li>
+                                        <li>$70</li>
+                                        <li>$90</li>
+                                        <li>$56</li>
+                                        <li>$19</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="testmonail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center test wow flipInY"data-wow-duration="2s" data-wow-offset="300" >
+                        <h1>Testimonials</h1>
+                        <p>We thanks for all our awesome testimonials! There are hundreds of our happy customers!<br> 
+                            Let's see what others say about Landigoo website template!</p>
+                    </div>
+            <div class="col-lg-12">
+               <div id="owl-example" class="owl-carousel">
+                  <div class="item wow bounceInLeft" data-wow-duration="2s" data-wow-offset="300"> 
+                      <div class="item-image">
+                       <h3> <i class="fa fa-quote-left fa-3x"></i> Wonderful Support!</h3>  
+                        <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p> 
+                      </div> 
+                       
+                          <div class="testi-meta ">
+                            <img  src="image/testi_02.png" alt="image" class="img-fluid">
+                              <h4><h4>James Fernando <small>- Manager of Racer</small></h4></h4>
+                          </div>
+                    </div>
+                   
+                     <div class="item wow bounceInDown" data-wow-duration="2s" data-wow-offset="300"> 
+                      <div class="item-image">
+                        <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                      </div> 
+                          
+                          <div class="testi-meta ">
+                            <img  src="image/testi_01.png" alt="image" class="img-fluid">
+                              <h4><h4>James Fernando <small>- Manager of Racer</small></h4></h4>
+                          </div>
+                    </div>
+                   
+                    <div class="item wow bounceInRight" data-wow-duration="2s" data-wow-offset="300"> 
+                      <div class="item-image">
+                       <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                      </div> 
+                          
+                          <div class="testi-meta ">
+                            <img  src="image/testi_03.png" alt="image" class="img-fluid">
+                              <h4><h4>James Fernando <small>- Manager of Racer</small></h4></h4>
+                          </div>
+                    </div>
+                   
+                    <div class="item"> 
+                      <div class="item-image">
+                       <h3> <i class="fa fa-quote-left fa-3x"></i> Wonderful Support!</h3>  
+                        <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p> 
+                      </div> 
+                           
+                          <div class="testi-meta ">
+                            <img  src="image/testi_01.png" alt="image" class="img-fluid">
+                              <h4><h4>James Fernando <small>- Manager of Racer</small></h4></h4>
+                          </div>
+                    </div>
+                   
+                    <div class="item"> 
+                      <div class="item-image">
+                       <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                      </div> 
+                         
+                          <div class="testi-meta ">
+                            <img  src="image/testi_02.png" alt="image" class="img-fluid">
+                              <h4><h4>James Fernando <small>- Manager of Racer</small></h4></h4>
+                          </div>
+                    </div>
+                   
+                      <div class="item"> 
+                      <div class="item-image">
+                       <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                      </div> 
+                           
+                          <div class="testi-meta ">
+                            <img  src="image/testi_03.png" alt="image" class="img-fluid">
+                              <h4><h4>James Fernando <small>- Manager of Racer</small></h4></h4>
+                          </div>
+                    </div>
+                      
+                      <div class="item"> 
+                      <div class="item-image">
+                       <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                      </div> 
+                           
+                          <div class="testi-meta ">
+                            <img  src="image/testi_03.png" alt="image" class="img-fluid">
+                              <h4><h4>James Fernando <small>- Manager of Racer</small></h4></h4>
+                          </div>
+                    </div>
+                   
+                     <div class="item"> 
+                      <div class="item-image">
+                       <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                      </div> 
+                           
+                          <div class="testi-meta ">
+                            <img  src="image/testi_03.png" alt="image" class="img-fluid">
+                              <h4><h4>James Fernando <small>- Manager of Racer</small></h4></h4>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="vant">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-4 wow bounceIn" data-wow-duration="2s" data-wow-offset="300" data-wow-delay=".5s">
+                        <img src="image/bbc.png" alt="image">
+                    </div>
+                    
+                     <div class="col-md-2 col-sm-4 wow bounceIn" data-wow-duration="2s" data-wow-offset="300" data-wow-delay="1s">
+                        <img src="image/cnn.png" alt="image">
+                    </div>
+                    
+                    <div class="col-md-2 col-sm-4 wow bounceIn" data-wow-duration="2s" data-wow-offset="300" data-wow-delay="1.5s">
+                        <img src="image/forbes.png" alt="image">
+                    </div>
+                    
+                     <div class="col-md-2 col-sm-4 wow bounceIn" data-wow-duration="2s" data-wow-offset="300" data-wow-delay="2s">
+                        <img src="image/wired.png" alt="image">
+                    </div>
+                    
+                     <div class="col-md-2 col-sm-4 wow bounceIn" data-wow-duration="2s" data-wow-offset="300" data-wow-delay="2.5s">
+                        <img src="image/wsj.png" alt="image">
+                    </div>
+                    
+                     <div class="col-md-2 col-sm-4 wow bounceIn" data-wow-duration="2s" data-wow-offset="300" data-wow-delay="3s">
+                        <img src="image/techradar.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="interest">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center wow bounceInLeft" data-wow-duration="2s" data-wow-offset="300" >
+                        <p>Interesting our awesome web design services? Just drop an email to us and get quote for free!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="container">
+                <div class="row feat">
+                    <div class="col-lg-4 wow bounceInLeft" data-wow-duration="2s" data-wow-offset="300">
+                        
+                        <img src="image/logo-hosting-light.png" alt="image">
+                        <span>WEB HOSTING TEMPLATE</span>
+                        <p>Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
+                        <p>Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
+                    </div>
+                    
+                   <div class="col-lg-3 wow bounceInDown" data-wow-duration="2s" data-wow-offset="300">
+                        <h2>Information Link</h2>
+                        <ul class="list-unstyled">
+                            <li>Home</li>
+                            <li>Blog</li>
+                            <li>Pricing</li>
+                            <li>About</li>
+                            <li>Faq</li>
+                            <li>Concat</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-lg-3 wow bounceInUp" data-wow-duration="2s" data-wow-offset="300">
+                        <h2>Contact Details</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#">info@yoursite.com</a></li>
+                            <li><a href="#">www.yoursite.com</a></li>
+                            <li>PO Box 16122 Collins Street West Victoria 8007 Australia</li>
+                            <li>+61 3 8376 6284</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-lg-2 wow bounceInRight" data-wow-duration="2s" data-wow-offset="300">
+                        <h2>Social</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-facebook"></i>22.543 Likes</a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i>128 Projects</a></li>
+                            <li><a href="#"><i class="fa fa-github"></i>12.860 Follower</a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i>3312 Shots</a></li>
+                            <li><a href="#"><i class="fa fa-pinterest"></i>3331 Pins</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+            </div>
+        
+        <div class="copy">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 wow bounceInLeft" data-wow-duration="2s" data-wow-offset="50">
+                    <p>All Rights Reserved. © 2018 <strong>HostCloud</strong> Design By : <strong>Ahmed Gamal</strong></p>    
+                </div>
+                    
+                  <div class="col-lg-6 wow bounceInRight" data-wow-duration="2s" data-wow-offset="50">
+                        <form>
+                        <input type="text" placeholder="SubScribe Our newsletter" class="form-control"> <i class="fa fa-envelope-o"></i>
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/custome.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+    </body>
+</html>

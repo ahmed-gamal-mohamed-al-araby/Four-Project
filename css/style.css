@@ -1,0 +1,580 @@
+#scrolltop,
+.option-box .gear-check,
+.modal-body .nav-tabs > li .active,
+.modal-body .nav-tabs > li .reg:hover,
+.modal-body .form-group button:hover,
+.nav .btn-primary:hover,
+.slider .icon,
+.about .win button:hover,
+.domain  button:hover,
+.slider .carousel-inner .carousel-caption button:hover,
+.hosting .card button:hover,
+.about i.align:hover ,
+.host-site .site,
+.hosting .card i:hover,
+.ready .btns button:first-child,
+.ready .btns button:hover,
+.share .card-header:hover,
+.share .card-body button:hover,
+.pricing a:hover,
+.interest:hover
+{ background-color: #00AEEF;}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar .navbar-brand span:last-of-type ,
+.slider .carousel-inner .carousel-caption span,
+{ color: #00AEEF;}
+
+.about .win button:hover,
+.domain  button:hover,
+.slider .carousel-inner .carousel-caption button:hover,
+.hosting .card button:hover
+{ border: none}
+
+#scrolltop {
+    color:#FFF;
+    padding:10px 15px;
+    position: fixed;
+    right:10px;
+    bottom: 5px;
+    z-index: 999999;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
+.loading-overlay {
+    background: #2C3E50;
+    position: fixed;    
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+    z-index: 999999999;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 300px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {-webkit-animation-delay: -1.0s; animation-delay: -1.0s;}
+
+.option-box {    
+    position: fixed;
+    top: 400px;
+    left: 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.option-box .color-option {
+    background-color: #333;
+    float: left;
+    color:#FFF;
+    padding: 10px 0 0;
+    width: 180px;
+    display: none;
+}
+
+.option-box .color-option h4 {margin-left: 5px;}
+
+.option-box .color-option ul li {
+    width:20px;
+    height:20px;
+    display: inline-block;
+    background-color: #00F;
+    margin-left: 5px;
+}
+
+.option-box .gear-check {color:#FFF; padding: 5px; }
+
+.modal-body .nav-tabs {
+    border-bottom: none;
+    padding: 20px;
+    background: #f6f6f6;
+    margin-bottom: 20px;
+  
+}
+
+.modal-body .nav-tabs > li {margin-right: 10px; }
+
+.modal-body .nav-tabs > li > a {
+    border-radius: 0px;
+    border: 0px;
+    background: #2d3032;
+    color: #ffffff;
+    padding: 14px 25px;
+    font-size: 18px;
+      text-decoration: none
+}
+
+.modal-body .nav-tabs > li .reg:hover,
+.modal-body .form-group button:hover,
+.nav .btn-primary:hover,
+.about i.align:hover 
+{
+    border: none;
+    color:#FFF
+}
+
+.nav .btn-primary {background-color: transparent; color:  #444; border: 1px solid  #B3B5B3;}
+
+.modal-body .form-group button {padding: 10px 30px;background-color:  #2d3032;}
+
+.fixed-top {border-bottom: 1px solid #888;}
+
+.modal-body .form-group .btn-primary {margin-left: 15px;}
+.navbar-expand-lg .navbar-collapse ,
+.navbar-expand-lg .navbar-collapse ul li {padding: 10px;}
+
+.navbar .navbar-brand {text-transform: uppercase;}
+
+.navbar .navbar-brand span:first-of-type {font-weight: bold;font-size: 25px;}
+
+.navbar .navbar-brand span:last-of-type {font-weight: bold;font-size: 25px;}
+
+
+.navbar-light .navbar-nav .nav-link {color:#222}
+
+.bg-light {background-color: #FFF !important}
+
+.slider {position: relative}
+
+.slider .carousel-inner .carousel-caption {bottom: 150px;}
+
+.slider .carousel-inner .carousel-caption h2{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.slider .carousel-inner .carousel-caption button{
+    
+    background-color: #222;
+    border:none;
+    padding: 10px 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.slider .overlay {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.3);
+    width:100%;
+    height:100%;
+    z-index: 2
+}
+
+.carousel-control-next, .carousel-control-prev {opacity: 1}
+
+.carousel-control-prev {left: 25px;}
+
+.slider .icon
+{
+    border:none;
+    border-radius: 50%;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 50%;
+    right: 25px;
+    z-index: 3;
+}
+
+.about {padding-top: 70px;padding-bottom: 70px;}
+
+.about .about-up h1 {margin-bottom: 17px;}
+
+.about .about-up p{
+    
+    color: #B3B5B3;
+    line-height: 1.7;
+    font-size: 20px;
+}
+.about .win {margin-top: 50px;}
+
+.about .win h2 {margin-top: 10px; }
+
+.about .win span {color: #B3B5B3;font-weight: bold }
+
+.about .win p {
+     color: #B3B5B3;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.7
+}
+
+.about .win button,
+.domain button,
+.hosting .card button
+{
+    padding: 10px 30px;
+    background-color: #222;
+    border: none;
+}
+
+.about .post {margin-top: 40px;}
+
+.playbutton {
+    position: absolute;
+    color: #ffffff !important;
+    top: 46%;
+    font-size: 60px;
+    z-index: 12;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: -20px auto;
+    
+}
+
+.about .media {margin-top: 50px;}
+
+.about .box {margin-bottom: 20%; margin-left: 25%;}
+
+.about i.align  {cursor: pointer;}
+
+.about i.align {float: left; position: absolute; left:30px; background-color: #F2F3F5; padding: 20px; font-size: 20px} 
+
+.about .box h2 {font-size: 24px; color:#555; margin-bottom: 10px;}
+
+.about .box p { color: #B3B5B3; line-height: 1.7; font-size: 17px; }
+
+.about .box a {color:#222; text-decoration: none; font-weight: bold}
+
+.about .box a:before {
+    font-family: "FontAwesome";
+    content: "\f138";
+    display: inline-block;
+    margin-right: 5px;   
+}
+
+.domain {background:url("../image/photo-1536286053831-52e1354eb5b7.jpg") center center fixed ; padding-top: 50px; padding-bottom: 50px; position: relative; color:#FFF;}
+
+.domain .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.7);
+    width:100%;
+    height:100%;
+}
+
+.domain h1 {margin-bottom: 20px;}
+
+.domain p {line-height: 2; font-size: 18px;}
+
+.domain i.two {margin-left: 15px;}
+
+.domain .find button {display: block; margin-top: 20px;}
+
+.domain .forms {
+    
+    background-color: #FFF;
+    margin-top: 50px;
+    height: 200px;
+    padding: 7px;
+}
+
+.domain .check {margin-left: 17px; padding-top: 30px; color:#B3B5B3;}
+
+.domain .form-group {
+    
+    background: #f2f3f5 none repeat scroll 0 0;
+    margin-top: 20px;
+    border: 1px solid #e9e9ec;
+    width: 90%;
+    padding: 10px;
+   
+}
+
+.domain .check {font-size: 20px;margin-top: 0}
+
+.domain .form-control {width: 86%;}
+
+.hosting {padding-top: 50px;padding-bottom: 50px;}
+
+.hosting p { color:#B3B5B3; padding-top: 20px; line-height: 2}
+
+.hosting .card {background-color: #F8F8F8;margin-top: 50px;}
+
+.hosting .card h1 {font-size: 20px; margin-top: 20px; margin-bottom: 0;}
+
+.hosting .card span {color:#B3B5B3; font-size: 14px;}
+
+.hosting .card i {
+    background-color: #FFF;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.hosting .card button {
+    margin-top: 20px;
+    width: 45%;
+    margin-left: 27%;
+    margin-bottom: 20px;
+    background-color: #222;
+}
+
+
+.hosting .card i:hover {color: #FFF;}
+
+.host-site
+{background-color: #2D3032; margin-top: 50px; padding-top: 10%; padding-bottom: 10%;}
+
+.host-site .site { padding: 40px; cursor: pointer}
+
+.host-site .site .median { margin-bottom: 20px;}
+
+.host-site .site i {float: left; margin-right: 20px; background-color: #FFF; padding: 20px;}
+
+.host-site .site p {margin-bottom: 0; font-size: 40px; color:#FFF;}
+
+.host-site .site span {margin-top: 0; font-size: 20px; color: #FFF;}
+
+.ready {padding-top: 80px;}
+
+.ready h1 {margin-bottom: 30px;}
+
+.ready p {line-height: 2 ; color:#B3B5B3; margin-bottom: 60px;}
+
+.ready .btns {
+    border: 1px solid #DDD;
+    width:50%;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.ready .btns button
+{
+    margin-left: 20px; 
+    margin-bottom: 15px;
+    padding: 10px 50px; 
+    background-color:  transparent;
+    border: none;
+    color:#222;
+}
+
+.ready .btns button:first-child,
+.ready .btns button:hover,
+.share .card-header:hover,
+.share .card-body button:hover
+{ color:#FFF; }
+
+.share {margin-top: 50px; }
+
+.share .card-header {
+    background-color: #222;
+    color:#FFF;
+    padding: 30px;
+}
+.share .card-body p{margin-bottom: 0}
+
+.share .card-body li {padding: 10px; color:#B3B5B3}
+
+.share .card-body span {font-weight: bold; margin-right: 5px; color:#222}
+
+.share .card-body button {
+    border: none;
+    padding: 10px 40px;
+    background-color: #222;
+}
+
+.share .card-body i { margin-right: 5px; color:#222; border-right: 1px dashed rgba(0,0,0,.4);width: 25px; }
+
+.testmonail {
+    padding-top: 10%;
+    padding-bottom: 7%;;
+    background: url("../image/parallax_04.jpg") center center fixed;
+}
+
+.testmonail h1 {margin-bottom: 20px; color:#FFF}
+
+.testmonail .test p  {color:#B3B5B3; line-height: 2; margin-bottom: 50px;}
+
+.testmonail .item-image {
+    padding: 10px;
+    color:#B3B5B3;
+    background-color: #000;
+    margin-bottom: 30px;
+}
+.testmonail .item {margin-right: 30px; margin-top: 40px;}
+
+.testmonail .item h3 {font-size: 20px;}
+
+.testmonail .item i {font-size: 30px; margin-right: 10px; margin-left: 10px;    }  
+
+.testi-meta {display: block;margin-top: 20px;}
+
+.testmonail h4 {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 13px 0 0;
+    display: inline-block
+}
+
+.testmonail img {max-width: 55px;display: inline-block}
+
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: 55px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.testmonail small {
+    margin-top: 7px;
+    font-size: 16px;
+    display: block;
+    color:#B3B5B3;
+}
+
+
+.pricing {margin-top: 10%; }
+
+.pricing h1 {margin-bottom: 20px;}
+
+.pricing p { line-height: 2; color:#B3B5B3}
+
+.pricing .forming{background-color: #F2F3F5; padding: 35px; margin-top: 70px; border-radius: 20px; }
+
+.pricing .forms input,.pricing .forms select 
+{
+  
+    height:50px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.pricing .forms select {margin-bottom: 20px;}
+
+.pricing textarea {height: 150px; margin-bottom: 20px;}
+
+.pricing a {
+    width: 100%;
+    padding: 15px; 
+    background-color: #222;
+    color:#FFF;
+}
+}
+
+.pricing a:hover {color:#FFF; }
+
+.vant {margin-top: 50px;margin-bottom: 40px;}
+
+.vant img {padding: 20px;}
+
+.interest {
+    background-color: #232323;
+    color:#B3B5B3;
+    padding: 50px;
+    cursor: pointer;
+}
+
+.interest:hover{color:#FFF;}
+
+.footer {background-color: #1F1F1F; padding-top: 5%; padding-bottom: 5%}
+
+.footer span {color: #B3B5B3; display: block; font-size: 14px; margin-left: 15%;}
+
+.footer p {color: #B3B5B3; font-size: 15px; line-height: 1.7; text-align: justify}
+
+.footer p:first-of-type {margin-top: 30px;}
+
+.footer h2{color:#FFF; font-size: 22px;}
+
+.footer ul li {
+    color: #B3B5B3;
+    border-bottom: 1px dashed  rgba(255,255,255,.2);
+    padding: 10px;
+}
+
+.footer ul li:last-child {border-bottom: none;}
+
+.footer ul {margin-top: 30px}
+
+.footer ul li a {text-decoration: none;color: #B3B5B3;}
+
+.footer ul li a:hover {color:#FFF;}
+
+.footer ul li i{margin-right: 5px;border-right: 1px dashed rgba(255,255,255,.2); width: 20px; }
+
+.copy strong {color:#FFF;}
+
+.copy input {width: 70%; margin-left: 20%; background-color: #222; border: none; padding: 20px 60px; }
+
+.copy form i {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    right: 80px;
+    color: #999;
+    font-size: 18px;
+    margin-top: 6px
+}
+
+.copy {background-color: #000; padding: 30px;}
+
+@media (max-width:576px) {
+    
+    .about .win ,.vant {text-align: center};
+    
+    .domain .check {padding-top: 0}
+    
+    .ready .btns {width: 100%;}
+    
+    .copy input {
+    width: 70%;
+    background-color: transparent; 
+    border: none;
+    padding: 0; 
+    margin-left: 0
+}
+    
+    .copy p {font-size: 10px;}
+    
+    .testmonail .item {display: none}
+}
+
+.footer ul li a,
+.interest,
+.pricing a,
+.ready .btns button,
+.share .card-header,
+.hosting .card i,
+.about i.align,
+.about .win button,
+.domain button,
+.hosting .card button,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link:hover
+
+{
+    -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+         -o-transition: all .5s ease;
+            transition: all .5s ease
+}

@@ -1,0 +1,25 @@
+.host-page {
+    background: url("../image/photo-1536286053831-52e1354eb5b7.jpg") center center fixed;
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 7%;
+    position: relative; 
+    height: 300px;
+    margin-top: 50px;
+}
+
+.host-page .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,.7);
+}
+
+.according {margin-top: 30px;}
+
+.ques {line-height: 2; margin-left: 5px;}
+
+.according .card {margin-bottom: 10px;}
